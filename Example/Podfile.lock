@@ -1,0 +1,34 @@
+PODS:
+  - CKTableViewTransactionalDataSource (0.1.1):
+    - ComponentKit (~> 0.2)
+  - ComponentKit (0.15.1)
+  - ComponentSwift (0.3):
+    - CKTableViewTransactionalDataSource (~> 0.1.0)
+    - ComponentKit (~> 0.15.0)
+  - ComponentSwift_ConvenientTool (0.1.0):
+    - ComponentSwift
+    - ComponentSwift_ConvenientTool/ImageDownloader (= 0.1.0)
+  - ComponentSwift_ConvenientTool/ImageDownloader (0.1.0):
+    - ComponentSwift
+    - SDWebImage (~> 4.0)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+
+DEPENDENCIES:
+  - ComponentSwift_ConvenientTool (from `../`)
+
+EXTERNAL SOURCES:
+  ComponentSwift_ConvenientTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CKTableViewTransactionalDataSource: 8ed793a62a7602e9be76c5a0ab1597f27bb435ab
+  ComponentKit: beef88630f344efb8344fe40fc6fc7c1732b68c8
+  ComponentSwift: c4b0685db6aad39b1f03887a6c0b300164c3da47
+  ComponentSwift_ConvenientTool: 3c3284c3e0043e4c627493402903fb0f7fedf6c1
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+
+PODFILE CHECKSUM: 2b90f1fa63d641058e658903e89ad4cc5b812eb2
+
+COCOAPODS: 1.3.1
