@@ -24,7 +24,12 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.dependency 'ComponentSwift'
+  s.default_subspecs = 'ImageDownloader'
 
 
+    s.subspec 'ImageDownloader' do |sp|
+        sp.source_files = 'Classes/ImageDownloader/**/*.{h,m,mm,swift}'
+        sp.dependency 'SDWebImage', '~> 4.0'
+    end
 
 end
