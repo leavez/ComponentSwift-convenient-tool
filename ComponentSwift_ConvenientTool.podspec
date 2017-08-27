@@ -28,6 +28,7 @@ Convenient tool for ComponentSwift.
   s.subspec 'Components' do |sp|
       sp.source_files = 'Classes/Components/**/*.{h,m,mm,swift}'
       sp.private_header_files = 'Classes/Components/inner/**/*.h'
+      sp.dependency "ComponentSwift_ConvenientTool/ImageDownloader"
   end
 
 end

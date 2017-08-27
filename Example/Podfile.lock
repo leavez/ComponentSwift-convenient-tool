@@ -11,6 +11,7 @@ PODS:
     - ComponentSwift_ConvenientTool/ImageDownloader (= 0.1)
   - ComponentSwift_ConvenientTool/Components (0.1):
     - ComponentSwift
+    - ComponentSwift_ConvenientTool/ImageDownloader
   - ComponentSwift_ConvenientTool/ImageDownloader (0.1):
     - ComponentSwift
     - SDWebImage (~> 4.0)
@@ -29,7 +30,7 @@ SPEC CHECKSUMS:
   CKTableViewTransactionalDataSource: 8ed793a62a7602e9be76c5a0ab1597f27bb435ab
   ComponentKit: beef88630f344efb8344fe40fc6fc7c1732b68c8
   ComponentSwift: c4b0685db6aad39b1f03887a6c0b300164c3da47
-  ComponentSwift_ConvenientTool: eaf6b5e9124cf3ae573133a82a3ceb32f225ab86
+  ComponentSwift_ConvenientTool: 55089995290219a49b52bf0a81e64bd24e7f4dba
   SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
 
 PODFILE CHECKSUM: 42c02f5cf81eb18a2230bf966f2d86c3ebad3a49
