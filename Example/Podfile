@@ -1,5 +1,5 @@
 use_frameworks!
-target 'ComponentSwift-convenient-tool_Tests' do
+target 'ComponentSwiftConvenientToolTest' do
   pod 'ComponentSwift_ConvenientTool', :path => '../'
   
   
