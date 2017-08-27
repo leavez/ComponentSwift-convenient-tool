@@ -7,7 +7,7 @@
 #import "CSFadeInNetworkImageComponent.h"
 #import <ComponentSwift/ComponentSubclass.h>
 #import <ComponentKit/ComponentKit.h>
-#import "CSImageDownloader.h"
+#import <ComponentSwift_ConvenientTool/CSImageDownloader.h>
 #import "CKFadeInNetworkImageComponent.h"
 
 @interface CSImageDownloader(ck)<CKNetworkImageDownloading>
