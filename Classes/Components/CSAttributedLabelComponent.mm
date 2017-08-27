@@ -1,6 +1,5 @@
 //
 //  CSAttributedLabelComponent.m
-//  CKTableViewTransactionalDataSource
 //
 //  Created by Gao on 27/08/2017.
 //
